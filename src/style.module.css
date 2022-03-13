@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    outline:0;
+}
+
+body{
+/* background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  */
+background: rgba(155, 153, 153, 0.425) !important;
+
+}
+
+
+.main{
+    display: grid;
+    box-sizing: border-box;
+}
+
+
+.heading{
+    color:#fd1d1d ;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 800;
+    background: -webkit-linear-gradient( #fcb045, #fd1d1d, #833ab4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.inputFild{
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center;
+    margin-top: 50px;
+    padding: 40px 50px;
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+
+   
+}
+
+.inputData{
+    place-items: center;
+    margin-top: 50px;
+    padding: 40px 50px;
+    background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); 
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+
+   
+}
+
+.innerInput{
+    padding: 8px;
+    border: 0;
+    margin-right: 8px;
+}
+
+
+.pstBtn{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    background: #fff !important;
+    padding: 10px 20px !important;
+    text-transform: uppercase;
+    color: #000 !important;
+    border: 0 !important;
+    margin-right: 10px;
+}
+.updateBtn{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    background: #fff !important;
+    padding: 10px 20px !important;
+    text-transform: uppercase;
+    color: #000 !important;
+    border: 0 !important;
+    margin-right: 10px;
+    margin-top: -6px;
+    font-size: 14px !important;
+}
+
+.name{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.designation{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
